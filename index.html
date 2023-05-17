@@ -23,11 +23,81 @@
 		</div>
 		<div id="container-presentation">
 			<div id="presentation">
-				<h1>Titre de ma présentation</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt massa sit amet nibh pulvinar, vel consectetur velit accumsan. Etiam faucibus euismod velit. Duis vel dictum augue. Donec et ultricies velit. Sed vitae nisl nibh. In at libero eget quam tristique iaculis. Curabitur porta diam elit, ut interdum risus semper sit amet. Proin varius, mauris a lacinia pellentesque, nisi tellus rhoncus metus, at maximus tellus nunc eget nulla. In pellentesque tincidunt est at imperdiet.</p>
+				<h1>Bonjour je m'appelle David !</h1>
+				<img src="MOI.jpg">
+				<p>Je suis actuellement étudiant en 2ème année en informatique , intéressé par les capacités de la data pour résoudre des problèmes et améliorer le développpement dans différents domaines.
+					 </p>
 			</div>
 		</div>
+
 		
+		<div class="skills-container">
+			<h2>Compétences</h2>
+			<div class="skill">
+			  <div class="skill-name">C#</div>
+			  <div class="skill-bar">
+				<div class="skill-level" style="width: 50%;">50%</div>
+			  </div>
+			</div>
+			<div class="skill">
+			  <div class="skill-name">Python</div>
+			  <div class="skill-bar">
+				<div class="skill-level" style="width: 40%;">40%</div>
+			  </div>
+			</div>
+			<div class="skill">
+			  <div class="skill-name">Javascript</div>
+			  <div class="skill-bar">
+				<div class="skill-level" style="width: 30%;">30%</div>
+			  </div>
+			</div>
+		  </div>
+
+
+		  <div class="project-container">
+			<div class="project">
+			  <a href="https://randilori.itch.io/">
+				<img src="Loutre Rush.png" alt="Projet 1">
+				<h3>Projet Dev</h3>
+			  </a>
+			</div>
+			
+			<div class="project">
+			  <a href="https://github.com/projet2">
+				<img src="projet2.jpg" alt="Projet 2">
+				<h3>Projet 2</h3>
+			  </a>
+			</div>
+			
+			<div class="project">
+			  <a href="https://github.com/projet3">
+				<img src="en cours.png" alt="Projet 3">
+				<h3>En cours</h3>
+			  </a>
+			</div>
+		  </div>
+
+		  <div class="container-form">
+			<h2>Contactez Moi</h2>
+			<form action="https://formsubmit.co/nguyen_david2003@outlook.fr" method="post" >
+			  <div class="form-group">
+				<label for="nom">Nom :</label>
+				<input type="text" id="nom" name="nom" required>
+			  </div>
+			  <div class="form-group">
+				<label for="email">E-mail :</label>
+				<input type="email" id="email" name="email" required>
+			  </div>
+			  <div class="form-group">
+				<label for="message">Message :</label>
+				<textarea id="message" name="message" required></textarea>
+			  </div>
+			  <button type="submit">Envoyer</button>
+			</form>
+			
+		  </div>
+		  
+		  
 		<script type="module" src="/main.js"></script>
 		<script>
 			const aboutLink = document.querySelector('a[href="#about"]');
